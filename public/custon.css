@@ -727,6 +727,31 @@ input:active +.drinkcard-cc-medium, .cc-selector input:active +.drinkcard-cc-med
     padding-top: 1rem!important;
     padding-bottom: 1rem!important;
    }
+.px-grooming-4{
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+
+.fila-cal{
+   padding: 1px;
+   display: inline-block;
+}
+
+.hora_desactivada-2 {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 1.2rem 1.1rem;
+    margin-right: 8px;
+    font-weight: 700;
+}
+
+.notas-grooming{
+     font-size:12px; 
+     color:red;
+}
 
 @media only screen and (max-width:480px) { 
 
@@ -812,5 +837,37 @@ input:active +.drinkcard-cc-medium, .cc-selector input:active +.drinkcard-cc-med
     padding-top: 0px!important;
     padding-bottom: 0px!important;
    }
+
+   .px-grooming-4{
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+   }
+
+   .titulo {
+    margin-top: 2px !important;
+     }
+
+   .px-grooming-1{
+    margin-top: 20px;
+   }
+
+   .grooming-tipo-1{
+    display: none;
+   }
+
+   .btn-table {
+    --bs-btn-padding-x: 0.8rem;
+    --bs-btn-padding-y: 0.6rem;
+   }
+
+   .hora_desactivada-2 {
+    padding: 1.2rem 1.1rem;  
+    }
+
+    .notas-grooming{
+     font-size:10px; 
+     color:red;
+     }
+
 
 }
